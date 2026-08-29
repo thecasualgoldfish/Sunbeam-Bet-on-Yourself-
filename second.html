@@ -4,16 +4,43 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="./second.css" />
+    </head>
+        <title></title>
+        <link rel="stylesheet" href="./Second.css" />
     </head>
     <body>
-        <div>
-            <div>
-                <p>Enter your task you will bet on!:<span class="blinking-cursor">|</span></p>
-                <input type="text" id="userInput" autofocus />
-                <button onclick="submitPrompt()">Submit</button>
-            </div>
-        </div>
-    </body>
+        <header></header>
+        <h1 style="color:rgb(246, 188, 250);">What will you bet on? </h1>
+        <tr>
+            <input id="usersTask" placeholder="I bet that I'll..." />
+            <input id="betAmount" placeholder="How much $?" />
+        </tr>
+        <input onclick="getAmount(); getTask();" type="checkbox">
+        </body>
     <script src="./script.js"></script>
-</html> 
+</html>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Input Box</title>
+</head>
+<body>
+  <div id="input-container">
+    <input type="text" placeholder="I will...">
+  </div>
+  <button onclick="addInput()">What else will you do?</button>
+  <div style="display: none;">
+    <script>
+        function addInput() {
+        const container = document.getElementById('input-container');
+        const newInput = document.createElement('input');
+        newInput.type = 'text';
+        newInput.placeholder = 'I will also...';
+        container.appendChild(newInput);
+        }
+    </script>
+  </div>
+</body>
+</html>
+
