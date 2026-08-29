@@ -1,3 +1,8 @@
+function main()
+{
+  let moneybet;
+  let taskbet;
+}
 function getTask() 
 {
   const input = document.getElementById("usersTask");
