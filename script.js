@@ -1,3 +1,2 @@
 function Clickhello() {
-    alert("Yippee!");
 }
