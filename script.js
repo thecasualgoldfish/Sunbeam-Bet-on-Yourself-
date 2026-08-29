@@ -1,14 +1,13 @@
-function getTask() 
+
+
+function getAmount()
 {
-  const input = document.getElementById("usersTask");
-  taskbet = input.value; // save for later
-  localStorage.setItem("savedInput", taskbet); // optional: keeps it after refresh
-  return taskbet;
+  const values = {
+    task: document.getElementById("usersTask").value,
+    amount: document.getElementById("usersAmount").value
+  };
+  localStorage.setItem("betData", JSON.stringify(values));
+  console.log(values);
+  return values;
 }
 
-function getAmount() {
-  const input = document.getElementById("usersTask");
-  moneybet = input.value; // save for later
-  localStorage.setItem("savedInput", moneybet); // optional: keeps it after refresh
-  return moneybet;
-}
