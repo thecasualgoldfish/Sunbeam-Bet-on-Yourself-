@@ -29,16 +29,6 @@
         width: 300px;
         border-radius: 50%;
         height: 200px;
-        align-items: left;
-        justify-items: left;
-    img {
-        width: 300;
-        border-radius: 50%;
-        height:200px;
-        align-items: left;
-        justify-items: left;
-
-    }
     }
     button {
         background-color: rgb(205, 120, 216);
