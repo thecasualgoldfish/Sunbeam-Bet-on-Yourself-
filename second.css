@@ -22,5 +22,21 @@
         body {
         background-color: rgb(255, 229, 229);
         }
-
-        
+    input[type="checkbox"] {
+        margin-top: 20px;
+        width: 30px;
+        height: 30px; 
+    }
+    button {
+        border: 1px dashed rgb(220, 145, 200);
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    img {
+        width: 100px;
+        border-radius: 0;
+        height: 150px;
+    }
