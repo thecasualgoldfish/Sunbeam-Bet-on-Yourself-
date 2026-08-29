@@ -8,5 +8,6 @@ function getAmount()
   localStorage.setItem("betData", JSON.stringify(values));
   console.log(values);
   return values;
+  
 }
 
