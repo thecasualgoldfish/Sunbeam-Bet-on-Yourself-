@@ -1,3 +1,7 @@
+function clickHello()
+{
+  
+}
 function savevals() {
   const inputs = document.querySelectorAll("input");
 
